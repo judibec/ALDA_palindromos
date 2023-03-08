@@ -1,6 +1,8 @@
+from memory_profiler import profile
+
 """Complicated O(n)"""
 
-
+@profile
 def checkPalindrome1(string):
     reversedWord = string[::-1]
     return string == reversedWord
@@ -8,7 +10,7 @@ def checkPalindrome1(string):
 
 """Complicated O(n^2)"""
 
-
+@profile
 def checkPalindrome2(string):
     size = len(string)
     if size == 0 or size == 1:
@@ -20,7 +22,7 @@ def checkPalindrome2(string):
 
 """Complicated O(n)"""
 
-
+@profile
 def checkPalindrome3(string):
     size = len(string)
     for i in range(size // 2):

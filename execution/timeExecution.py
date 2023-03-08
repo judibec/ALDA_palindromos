@@ -22,4 +22,4 @@ def takeExecutionTime(array, palindrome_method):
         palindrome_method(array[i])
         times.append(int(constants.TIME_MULTIPLIER * (time.time() - start)))
     times.sort()
-    return times[len(times) // 2]
+    return times[len(times)//2]

@@ -11,6 +11,7 @@ Python 3.10.5
 
 * Create virtual enviroment: `virtualenv env`
 * To install dependencies: `pip install -r requirements.txt`
+* To run the memory import we use: `pip install memory_profiler`
 
 ## Memory plot
 ![image](https://user-images.githubusercontent.com/90010884/223772962-9d8ec1bb-14a2-4621-8ca1-3478cb9ae8e6.png)
